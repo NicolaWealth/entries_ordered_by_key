@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: [
     typescript({
+      tsconfig: "./tsconfig.build.json",
       compilerOptions: {
         composite: false,
         declaration: false,
